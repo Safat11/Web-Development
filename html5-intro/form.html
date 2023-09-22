@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="audio-video.html">Media</a></li>
+            </ul>
+            <h2>Welcome to Jamal er ma Pitha Ghor</h2>
+        </nav>
+    </header>
+   
+    <form>
+        <label for="">Your Name
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+
+        <label for="">Your Email
+            <input id="email" type="email" placeholder="Your Email">
+        </label>
+
+        <label for="">Your Mobile
+            <input id="phone" type="number" placeholder="Your Phone">
+        </label>
+
+        <fieldset>
+            <legend>
+                Pick One Pitha</legend>
+            <label for="Chitoy">
+                <input type="radio" name="Pitha" id="Chitoy">
+                Chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="Pitha" id="Vapa">
+                Vapa
+            </label>
+            <label for="Coconut">
+                <input type="radio" name="Pitha" id="Coconut">
+                Coconut
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Select One or More Borta</legend>
+            <label for="Sorisha">
+                <input type="checkbox" name="Vorta" id="Sorisha">
+                Sorisha
+            </label>
+            <label for="Shutki">
+                <input type="checkbox" name="Vorta" id="Shutki">
+                Shutki
+            </label>
+            <label for="Dal">
+                <input type="checkbox" name="Vorta" id="Dal">
+                Dal
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="50" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
